@@ -1,0 +1,45 @@
+/*404 page CSS File*/
+
+/*Font of the Page*/
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Rampart';
+}
+
+body {
+  height: 65vh;
+}
+
+.pageWrapper {
+  height: 100%;
+  transform: translate(0%, 50%);
+  text-align: center;
+}
+
+button#button {
+  margin-top: 12px;
+  padding: 12px;
+  color: #ffffff;
+  background: #38be34;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+
+button#button:hover {
+  cursor: pointer;
+  background: #ac87af;
+}
